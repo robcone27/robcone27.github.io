@@ -1,29 +1,45 @@
-
 body {
-  background-color: #1B3D5B;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
+    background-color: #1B3D5B;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10% 20%;
 }
 
-.name {border-bottom: 3px solid #dddddd;
-  line-height: 0px;
-  margin-bottom: 15px;
+.name {
+    font-size: 32px;
+    text-align: center;
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
+    background-color: #708090;
+    line-height: 15px;
+}
+
+.skills {
+    padding-top: 10px;
 }
 
 .exp-header {
-  text-transform: uppercase;
- border-top: 3px solid #dddddd;
-  border-bottom: 3px solid #dddddd;
-  background-color: #708090;
+    text-transform: uppercase;
+    margin-top: 158px;
 }
 
-img{ width: 225px;
-  float: right; 220px;
-  border: 3px solid white;
+img {
+    width: 275px;
+    float: right;
+    border: 8px solid white;
+    padding: 25px;
+    background-color: #708090;
 }
 
+.job-title {
+    border-bottom: 3px solid #708090;
+    line-height: 0px;
+    padding-top: 20px;
+}
 
-
-
-
+.education {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: #708090;
+    line-height: 0px;
+}
